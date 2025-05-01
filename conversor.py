@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Caminho da imagem de entrada (formato .pgm)
-pgm_path = "entrada.pgm"
+pgm_path = "saida.pgm"
 
 # Caminho da imagem de saída (formato .png)
 png_path = "saida.png"
