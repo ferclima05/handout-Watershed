@@ -1,10 +1,10 @@
 from PIL import Image
 
 # Caminho da imagem de entrada (formato .pgm)
-pgm_path = "saida.pgm"
+pgm_path = "moedas1.pgm"
 
 # Caminho da imagem de saída (formato .png)
-png_path = "saida.png"
+png_path = "moedas_formato.png"
 
 # Abre a imagem PGM e converte automaticamente
 img = Image.open(pgm_path)
