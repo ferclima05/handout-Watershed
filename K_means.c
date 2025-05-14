@@ -64,7 +64,7 @@ void kmeans() {
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {
-        printf("Uso: %s <entrada.pgm> <saida.pgm> <k>\n", argv[0]);
+        printf("Uso: %s <moedas1.pgm> <saida.pgm> <k>\n", argv[0]);
         return 1;
     }
 
