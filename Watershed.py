@@ -59,7 +59,7 @@ for lab, color in cores.items():
 
 # opcional: desenha as fronteiras em vermelho
 #seg_filled[markers == -1] = [0, 0, 255]
-cv2.imwrite('watershed_SS.png', seg_filled)
+#cv2.imwrite('watershed_SS.png', seg_filled)
 
 # --- Exibe resultados ---
 cv2.imshow("Original", img)

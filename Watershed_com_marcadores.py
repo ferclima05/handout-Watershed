@@ -78,7 +78,8 @@ while True:
             img_regions[marc_ws == mk] = cores[mk-1]
 
         # opcional: destacar as fronteiras em vermelho
-        img_regions[marc_ws == -1] = [0, 0, 255]
+        #img_regions[marc_ws == -1] = [0, 0, 255]
+        cv2.imwrite('Resultado_Watershed.png', img_regions)
 
         cv2.imshow('Regiões Segmentadas', img_regions)
 
